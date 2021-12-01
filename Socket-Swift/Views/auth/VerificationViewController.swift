@@ -28,7 +28,7 @@ class VerificationViewController: UIViewController {
 				print("is succeeded \(succeeded)")
 				DispatchQueue.main.async { [self] in
 					let socketVC = storyboard?.instantiateViewController(withIdentifier: "socket") as! MessagesViewController
-					navigationController?.pushViewController(socketVC, animated: true)
+					present(socketVC, animated: true, completion: nil)
 				}
 			}
 		}

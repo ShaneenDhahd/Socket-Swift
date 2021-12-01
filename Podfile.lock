@@ -1,0 +1,16 @@
+PODS:
+  - DNWebSocket (1.1.0)
+
+DEPENDENCIES:
+  - DNWebSocket (~> 1.1.0)
+
+SPEC REPOS:
+  trunk:
+    - DNWebSocket
+
+SPEC CHECKSUMS:
+  DNWebSocket: be8adf394075adb6d4dc66f6a5c78b434c50d250
+
+PODFILE CHECKSUM: c6ef0ca4a00ba49bf2a7516140a694a6b709761f
+
+COCOAPODS: 1.11.2
